@@ -1,0 +1,47 @@
+[package]
+name = "rust-webassembly-yew-async"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+yew = "0.19"
+gloo-console = "0.2"
+js-sys = "0.3.58"
+wasm-bindgen = "0.2.81"
+wasm-bindgen-futures = "0.4.33"
+log = "0.4.6"
+wasm-logger = "0.2.0"
+wasm-timer = "0.2.5"
+parking_lot = { version = "0.11.1", features = ["wasm-bindgen"]}
+gloo-net = "0.2.4"
+serde = { version = "1.0.144", features = ["derive"] }
+serde_derive = "1.0.144"
+serde_json = "1"
+gloo-utils = { version = "0.1", features = ["serde"] }
+
+[dependencies.web-sys]
+version = "0.3.58"
+features = [
+  "Document",
+  "Element",
+  "HtmlElement",
+  "HtmlBodyElement",
+  "Node",
+  "Headers",
+  "Request",
+  "RequestInit",
+  "RequestMode",
+  "Response",
+  "Window",
+  "Notification",
+  "WebSocket",
+  "MessageEvent",
+  "ErrorEvent",
+]
+
+[profile.release]
+lto = true
+opt-level = 's'
