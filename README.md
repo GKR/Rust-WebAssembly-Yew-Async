@@ -4,4 +4,4 @@ Demo of a web app in Rust with the Yew framework, compiled to WebAssembly. It's 
 
 *yew version 0.19.0*
 
-[](/Screenshot-2022-09-23.png)
+![](Screenshot-2022-09-23.png)
