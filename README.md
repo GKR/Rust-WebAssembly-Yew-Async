@@ -2,7 +2,13 @@
 
 Demo of a web app in Rust with the Yew framework, compiled to WebAssembly. It's just a simple application that fetches quotes from an HTTP API, parses JSON and displays the quotes. NodeJS and Webpack are used to package the project, and serve as the development environment.
 
-*yew version 0.19.0*
+<table border="0">
+ <tr>
+    <td><img src="./logo-rust.png"/></td>
+    <td><img src="./logo-webassembly.png"/></td>
+    <td><img src="./logo-yew.png"/></td>
+ </tr>
+</table>
 
 ## Install Rust ++
 See: https://www.rust-lang.org/tools/install
