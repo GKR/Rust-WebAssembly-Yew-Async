@@ -1,6 +1,6 @@
 # Rust-Webassembly-Yew-Async
 
-Demo of a web app in Rust with the Yew framework, compiled to WebAssembly. It's just a simple application that fetches quotes from an HTTP API, parses JSON and displays the quotes. NodeJS and Webpack are used to package the project, and serve as the development environment.
+Demo of a web app in Rust with the Yew framework, compiled to WebAssembly. It's just a simple application that fetches quotes from an HTTP API, parses JSON and displays the quotes. The quotes are updated every five seconds. NodeJS and Webpack are used to package the project, and serve as the development environment.
 
 <table border="0">
  <tr>
