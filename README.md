@@ -28,4 +28,8 @@ npm run serve
 
 Then open: http://localhost:9000/
 
-![](Screenshot-2022-09-23.png)
+<table border="0">
+ <tr>
+    <td><img src="./Screenshot-2022-09-23.png"/></td>
+ </tr>
+</table>
